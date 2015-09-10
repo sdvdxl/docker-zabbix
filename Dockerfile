@@ -103,4 +103,4 @@ EXPOSE 10051 10052 80 2812
 VOLUME ["/var/lib/mysql", "/usr/lib/zabbix/alertscripts", "/usr/lib/zabbix/externalscripts", "/etc/zabbix/zabbix_agentd.d"]
 
 ENTRYPOINT ["/bin/docker-zabbix"]
-CMD ["run"]
+# CMD ["run"]
